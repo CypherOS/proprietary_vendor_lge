@@ -12,8 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := hammerhead/BoardConfigPartial.mk
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel
 
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/lge/$(LOCAL_STEM)
--include vendor/qcom/$(LOCAL_STEM)
+LOCAL_STEM := hammerhead/device-partial.mk
+
+$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/lge/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/qcom/$(LOCAL_STEM))
