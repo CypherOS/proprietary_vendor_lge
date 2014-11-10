@@ -13,7 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    TimeService
 
 LOCAL_STEM := hammerhead/device-partial.mk
 
