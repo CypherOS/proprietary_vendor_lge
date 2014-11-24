@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The Android Open-Source Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,10 +21,6 @@ PRODUCT_PACKAGES := \
     MagicSmokeWallpapers \
     VisualizationWallpapers \
     librs_jni
-
-# Apps
-PRODUCT_PACKAGES += \
-    TimeService
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
