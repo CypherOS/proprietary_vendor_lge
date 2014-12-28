@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d852/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/d852/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/d852/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/d852/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/d852/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/d852/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/d852/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
