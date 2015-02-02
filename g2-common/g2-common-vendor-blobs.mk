@@ -54,6 +54,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/lge/g2-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/g2-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/g2-common/proprietary/lib/soundfx/libfnrwrapper.so:system/lib/soundfx/libfnrwrapper.so \
+    vendor/lge/g2-common/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
+    vendor/lge/g2-common/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
+    vendor/lge/g2-common/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/lge/g2-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/lge/g2-common/proprietary/lib/soundfx/libsweffectwrapper.so:system/lib/soundfx/libsweffectwrapper.so \
     vendor/lge/g2-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/g2-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -84,6 +90,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/g2-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/g2-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
