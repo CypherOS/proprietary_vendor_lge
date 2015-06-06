@@ -263,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
