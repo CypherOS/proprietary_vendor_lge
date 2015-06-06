@@ -1,0 +1,39 @@
+<WorkSpace_Data WSVersID="Badger_3">
+  <ACDBFile_Paths>
+    <ACDBFile_Paths path="Bluetooth_cal.acdb" />
+    <ACDBFile_Paths path="General_cal.acdb" />
+    <ACDBFile_Paths path="Global_cal.acdb" />
+    <ACDBFile_Paths path="Handset_cal.acdb" />
+    <ACDBFile_Paths path="Hdmi_cal.acdb" />
+    <ACDBFile_Paths path="Headset_cal.acdb" />
+    <ACDBFile_Paths path="Speaker_cal.acdb" />
+  </ACDBFile_Paths>
+  <GUI_Data />
+  <OpenDSP MajorMinor="1_0">
+    <AREA_LIST>
+      <AREA name="AUDIO_COPP_TX" type="TX">
+        <TOPOLOGY name="AUDIO_TX_DM" ID="0x11000011" type="TX" NewAdded="true">
+          <Block name="AUDIO_TX_HPF_IIR" dataView_ID="0x00000031" ID="0x00010C3D" type="TX" />
+          <Block name="AUDIO_MIC_GAIN" dataView_ID="0x0000001B" ID="0x00010C35" type="TX" />
+          <Block name="AUDIO_EANS" dataView_ID="0x0000001F" ID="0x00010C4A" type="BOTH" />
+          <Block name="AUDIO_TX_IIR" dataView_ID="0x0000004F" ID="0x00010C41" type="TX" />
+          <Block name="AUDIO_TX_AIG" dataView_ID="0x00000056" ID="0x00010716" type="TX" />
+          <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" />
+        </TOPOLOGY>
+      </AREA>
+    </AREA_LIST>
+    <TOPOLOGY_LIST>
+      <TOPOLOGY name="AUDIO_TX_DM" ID="0x11000011" type="TX" NewAdded="true">
+        <Block name="AUDIO_TX_HPF_IIR" dataView_ID="0x00000031" ID="0x00010C3D" type="TX" />
+        <Block name="AUDIO_MIC_GAIN" dataView_ID="0x0000001B" ID="0x00010C35" type="TX" />
+        <Block name="AUDIO_EANS" dataView_ID="0x0000001F" ID="0x00010C4A" type="BOTH" />
+        <Block name="AUDIO_TX_IIR" dataView_ID="0x0000004F" ID="0x00010C41" type="TX" />
+        <Block name="AUDIO_TX_AIG" dataView_ID="0x00000056" ID="0x00010716" type="TX" />
+        <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" />
+      </TOPOLOGY>
+    </TOPOLOGY_LIST>
+    <BLOCK_LIST />
+    <AB_VIEW_LIST />
+    <INTERFACE_LIST />
+  </OpenDSP>
+</WorkSpace_Data>

@@ -17,5 +17,5 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/d800/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/d800/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/d800/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd \
-    vendor/lge/d800/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd
+    vendor/lge/d800/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0054_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0054_Generic_I2C_NCD_Signed_configdata.ncd \
+    vendor/lge/d800/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0054_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0054_Generic_PreI2C_NCD_Signed_configdata.ncd
