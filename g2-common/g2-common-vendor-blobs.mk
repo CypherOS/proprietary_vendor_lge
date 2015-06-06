@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/g2-common/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/lge/g2-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/lge/g2-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/g2-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/g2-common/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/lge/g2-common/proprietary/bin/irsc_util:system/bin/irsc_util \
