@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/g2-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/g2-common/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/lge/g2-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/g2-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/g2-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g2-common/proprietary/bin/mpdecision:system/bin/mpdecision \
