@@ -95,19 +95,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/g2-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g2-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/lge/g2-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/g2-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/lge/g2-common/proprietary/lib/libdivxdrm_jni.so:system/lib/libdivxdrm_jni.so \
     vendor/lge/g2-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
-    vendor/lge/g2-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g2-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/g2-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/g2-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g2-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lge/g2-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/g2-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/g2-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g2-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
