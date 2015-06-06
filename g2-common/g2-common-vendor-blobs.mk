@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
@@ -206,6 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
@@ -276,6 +278,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -301,6 +304,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/g2-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
@@ -312,15 +318,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libSSEPKCS11.so:system/vendor/lib/libSSEPKCS11.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libstlport_sh_521.so:system/vendor/lib/libstlport_sh_521.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsweskia.so:system/vendor/lib/libsweskia.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/g2-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
