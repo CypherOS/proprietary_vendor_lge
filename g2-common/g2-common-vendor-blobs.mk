@@ -418,4 +418,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libusutils.so:system/vendor/lib/libusutils.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libwqe.so:systemvendor/lib/libwqe.so
+    vendor/lge/g2-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so
