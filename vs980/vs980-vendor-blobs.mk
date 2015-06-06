@@ -17,3 +17,19 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0098_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0098_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0098_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0098_Generic_PreI2C_NCD_Signed_configdata.ncd
+
+PRODUCT_COPY_FILES += \
+    vendor/lge/vs980/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
+    vendor/lge/vs980/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
+    vendor/lge/vs980/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
+    vendor/lge/vs980/firmware/adsp.b03:system/vendor/firmware/adsp.b03 \
+    vendor/lge/vs980/firmware/adsp.b04:system/vendor/firmware/adsp.b04 \
+    vendor/lge/vs980/firmware/adsp.b05:system/vendor/firmware/adsp.b05 \
+    vendor/lge/vs980/firmware/adsp.b06:system/vendor/firmware/adsp.b06 \
+    vendor/lge/vs980/firmware/adsp.b07:system/vendor/firmware/adsp.b07 \
+    vendor/lge/vs980/firmware/adsp.b08:system/vendor/firmware/adsp.b08 \
+    vendor/lge/vs980/firmware/adsp.b09:system/vendor/firmware/adsp.b09 \
+    vendor/lge/vs980/firmware/adsp.b10:system/vendor/firmware/adsp.b10 \
+    vendor/lge/vs980/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
+    vendor/lge/vs980/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
+    vendor/lge/vs980/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt
