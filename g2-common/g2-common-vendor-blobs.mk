@@ -327,6 +327,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libSSEPKCS11.so:system/vendor/lib/libSSEPKCS11.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libstlport_sh_521.so:system/vendor/lib/libstlport_sh_521.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsweskia.so:system/vendor/lib/libsweskia.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
