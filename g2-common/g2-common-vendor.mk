@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     qcnvitems \
     libtime_genoff \
-    libTimeService
+    libTimeService \
+    libHevcSwDecoder
 
 $(call inherit-product, vendor/lge/g2-common/g2-common-vendor-blobs.mk)
