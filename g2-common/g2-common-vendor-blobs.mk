@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g2-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/g2-common/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/lge/g2-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/lge/g2-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
@@ -89,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/g2-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g2-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/lge/g2-common/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/lge/g2-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/g2-common/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
