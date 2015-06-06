@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g2-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/g2-common/proprietary/bin/radish:system/bin/radish \
-    vendor/lge/g2-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
@@ -110,14 +109,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g2-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/g2-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/g2-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/lge/g2-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g2-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/g2-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/lge/g2-common/proprietary/lib/libdivxdrm_jni.so:system/lib/libdivxdrm_jni.so \
     vendor/lge/g2-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
-    vendor/lge/g2-common/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/g2-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g2-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
@@ -140,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/g2-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g2-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/g2-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g2-common/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
@@ -193,7 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
