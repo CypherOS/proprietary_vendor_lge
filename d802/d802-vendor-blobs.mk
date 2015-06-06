@@ -17,8 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/d802/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
-    vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd
+    vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd \
+    vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd
 
 # Include known-good ADSP to prevent compatibility issues for users with bad firmware images
 PRODUCT_COPY_FILES += \
