@@ -111,7 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g2-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/g2-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/lge/g2-common/proprietary/lib/libmorphoimageconverter_4.so:systemlib/libmorphoimageconverter_4.so \
+    vendor/lge/g2-common/proprietary/lib/libmorphoimageconverter_4.so:system/lib/libmorphoimageconverter_4.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
