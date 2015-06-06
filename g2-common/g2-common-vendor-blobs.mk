@@ -25,12 +25,6 @@
 #    vendor/lge/g2-common/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
 #    vendor/lge/g2-common/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
 
-# RIL is currently broken so don't include the libs, instead, build CAF RIL HAL libs
-#
-#PRODUCT_COPY_FILES += \
-#    vendor/lge/g2-common/proprietary/bin/rild:system/bin/rild \
-#    vendor/lge/g2-common/proprietary/lib/libril.so:system/lib/libril.so \
-
 PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/g2-common/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -50,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g2-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/g2-common/proprietary/bin/radish:system/bin/radish \
+    vendor/lge/g2-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g2-common/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -131,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libmorpho_sensor_fusion_4.so:system/lib/libmorpho_sensor_fusion_4.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/g2-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lge/g2-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g2-common/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
