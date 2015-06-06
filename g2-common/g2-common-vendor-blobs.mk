@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/g2-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/lge/g2-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/lge/g2-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g2-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
