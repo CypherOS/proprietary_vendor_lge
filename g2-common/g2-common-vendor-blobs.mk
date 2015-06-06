@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
-    vendor/lge/g2-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/g2-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/g2-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/g2-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
