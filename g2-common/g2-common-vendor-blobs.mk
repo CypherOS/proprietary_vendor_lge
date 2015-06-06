@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/g2-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+    vendor/lge/g2-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/g2-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/g2-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g2-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
