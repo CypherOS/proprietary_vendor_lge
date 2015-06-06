@@ -262,16 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d801/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
     vendor/lge/d801/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/d801/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/d801/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
-    vendor/lge/d801/proprietary/lib/soundfx/libfnrwrapper.so:system/lib/soundfx/libfnrwrapper.so \
-    vendor/lge/d801/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
-    vendor/lge/d801/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
-    vendor/lge/d801/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/lge/d801/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/lge/d801/proprietary/lib/soundfx/libsweffectwrapper.so:system/lib/soundfx/libsweffectwrapper.so \
-    vendor/lge/d801/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/lge/d801/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/lge/d801/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+    vendor/lge/d801/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
 
 # Include known-good ADSP to prevent compatibility issues for users with bad/incompatible firmware images
 PRODUCT_COPY_FILES += \
