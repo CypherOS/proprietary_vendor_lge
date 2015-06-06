@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g2-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/g2-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/g2-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/g2-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g2-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/g2-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
