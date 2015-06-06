@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/g2-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g2-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2-common/proprietary/bin/usbhub:system/bin/usbhub \
