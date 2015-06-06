@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/g2-common/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/lge/g2-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g2-common/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -122,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/g2-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g2-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/g2-common/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/lge/g2-common/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
