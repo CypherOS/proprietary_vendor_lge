@@ -95,11 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/lge/g2-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/g2-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
-    vendor/lge/g2-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
-    vendor/lge/g2-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/lge/g2-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/g2-common/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/g2-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -114,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libmorphoimageconverter_4.so:system/lib/libmorphoimageconverter_4.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/lge/g2-common/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_panorama_wa_4.so:system/lib/libmorpho_panorama_wa_4.so \
