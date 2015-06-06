@@ -20,10 +20,7 @@
 #    vendor/lge/g2-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 #    vendor/lge/g2-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
 #    vendor/lge/g2-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-#    vendor/lge/g2-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-#    vendor/lge/g2-common/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
-#    vendor/lge/g2-common/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
-#    vendor/lge/g2-common/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
+#    vendor/lge/g2-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
@@ -351,68 +348,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/g2-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lge/g2-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
-
-# The following blobs are unneeded so keep them seperate
-# They are only added in hopes of the device booting
-PRODUCT_COPY_FILES += \
-    vendor/lge/g2-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/lge/g2-common/proprietary/bin/cnd:system/bin/cnd \
-    vendor/lge/g2-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/lge/g2-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/lge/g2-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/lge/g2-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/lge/g2-common/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/lge/g2-common/proprietary/bin/test_diag:system/bin/test_diag \
-    vendor/lge/g2-common/proprietary/lib/libims.so:system/lib/libims.so \
-    vendor/lge/g2-common/proprietary/lib/libimsmedia.so:system/lib/libimsmedia.so \
-    vendor/lge/g2-common/proprietary/lib/libimsmmpf.so:system/lib/libimsmmpf.so \
-    vendor/lge/g2-common/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
-    vendor/lge/g2-common/proprietary/lib/liblgdrm_adapt.so:system/lib/liblgdrm_adapt.so \
-    vendor/lge/g2-common/proprietary/lib/liblgdrm_client.so:system/lib/liblgdrm_client.so \
-    vendor/lge/g2-common/proprietary/lib/liblgdrm_jni.so:system/lib/liblgdrm_jni.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-rcsjni.so:system/lib/lib-rcsjni.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libVenusMbiConv.so:system/vendor/lib/libVenusMbiConv.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libdpencalib.so:system/vendor/lib/libdpencalib.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libicui18n.cr.so:system/vendor/lib/libicui18n.cr.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libicuuc.cr.so:system/vendor/lib/libicuuc.cr.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libppl.so:system/vendor/lib/libppl.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libprofiler_msmadc.so:system/vendor/lib/libprofiler_msmadc.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libsweadrenoext_plugin.so:system/vendor/lib/libsweadrenoext_plugin.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libswenetxt_plugin.so:system/vendor/lib/libswenetxt_plugin.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libswev8.so:system/vendor/lib/libswev8.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libusutils.so:system/vendor/lib/libusutils.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so
