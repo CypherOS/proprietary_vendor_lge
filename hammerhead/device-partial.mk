@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw:qcom \
     vendor/lge/hammerhead/proprietary/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
     vendor/lge/hammerhead/proprietary/qcrilhook.jar:system/framework/qcrilhook.jar:qcom \
+    vendor/lge/hammerhead/proprietary/serviceitems.jar:system/framework/serviceitems.jar:qcom \
     vendor/lge/hammerhead/proprietary/flp.msm8974.so:system/lib/hw/flp.msm8974.so:qcom \
     vendor/lge/hammerhead/proprietary/gps.msm8974.so:system/lib/hw/gps.msm8974.so:qcom \
     vendor/lge/hammerhead/proprietary/libadsprpc.so:system/lib/libadsprpc.so:qcom \
