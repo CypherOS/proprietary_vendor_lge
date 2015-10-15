@@ -191,6 +191,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libqmi.so:system/vendor/lib/libqmi.so:qcom \
     vendor/lge/hammerhead/proprietary/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so:qcom \
     vendor/lge/hammerhead/proprietary/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so:qcom \
+    vendor/lge/hammerhead/proprietary/librpmb.so:system/vendor/lib/librpmb.so:qcom \
     vendor/lge/hammerhead/proprietary/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so:qcom \
     vendor/lge/hammerhead/proprietary/librs_adreno.so:system/vendor/lib/librs_adreno.so:qcom \
     vendor/lge/hammerhead/proprietary/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so:qcom \
