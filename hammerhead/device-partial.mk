@@ -199,6 +199,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     vendor/lge/hammerhead/proprietary/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
     vendor/lge/hammerhead/proprietary/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so:qcom \
+    vendor/lge/hammerhead/proprietary/libssd.so:system/vendor/lib/libssd.so:qcom \
     vendor/lge/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/lge/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
     vendor/lge/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
