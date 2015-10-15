@@ -191,7 +191,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libqmi.so:system/vendor/lib/libqmi.so:qcom \
     vendor/lge/hammerhead/proprietary/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so:qcom \
     vendor/lge/hammerhead/proprietary/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so:qcom \
-    vendor/lge/hammerhead/proprietary/librpmb.so:system/vendor/lib/librpmb.so:qcom \
+    vendor/lge/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so:qcom \
     vendor/lge/hammerhead/proprietary/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so:qcom \
     vendor/lge/hammerhead/proprietary/librs_adreno.so:system/vendor/lib/librs_adreno.so:qcom \
     vendor/lge/hammerhead/proprietary/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so:qcom \
@@ -199,9 +199,10 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     vendor/lge/hammerhead/proprietary/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
     vendor/lge/hammerhead/proprietary/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so:qcom \
-    vendor/lge/hammerhead/proprietary/libssd.so:system/vendor/lib/libssd.so:qcom \
+    vendor/lge/hammerhead/proprietary/libssd.so:system/lib/libssd.so:qcom \
     vendor/lge/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/lge/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
+    vendor/lge/hammerhead/proprietary/libwvm.so:system/vendor/lib/libwvm.so:qcom \
     vendor/lge/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
     vendor/lge/hammerhead/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
     vendor/lge/hammerhead/proprietary/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd:broadcom
