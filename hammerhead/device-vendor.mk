@@ -13,7 +13,12 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-    qcrilmsgtunnel
+    OmaDmclient \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    SprintHiddenMenu \
+    TimeService \
+    UpdateSetting
 
 LOCAL_STEM := hammerhead/device-partial.mk
 
