@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libdrmtime.so:system/lib/libdrmtime.so:qcom \
     vendor/lge/hammerhead/proprietary/libgps.utils.so:system/lib/libgps.utils.so:qcom \
     vendor/lge/hammerhead/proprietary/libI420colorconvert.so:system/lib/libI420colorconvert.so:qcom \
+    vendor/lge/hammerhead/proprietary/liblbs_core.so:system/vendor/lib/liblbs_core.so:qcom \
     vendor/lge/hammerhead/proprietary/libloc_core.so:system/lib/libloc_core.so:qcom \
     vendor/lge/hammerhead/proprietary/libloc_eng.so:system/lib/libloc_eng.so:qcom \
     vendor/lge/hammerhead/proprietary/libmm-abl.so:system/lib/libmm-abl.so:qcom \
