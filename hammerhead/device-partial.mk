@@ -202,7 +202,11 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libssd.so:system/lib/libssd.so:qcom \
     vendor/lge/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/lge/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
+    vendor/lge/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so:qcom \
+    vendor/lge/hammerhead/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so:qcom \
     vendor/lge/hammerhead/proprietary/libwvm.so:system/vendor/lib/libwvm.so:qcom \
+    vendor/lge/hammerhead/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so:qcom \
+    vendor/lge/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:qcom \
     vendor/lge/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
     vendor/lge/hammerhead/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
     vendor/lge/hammerhead/proprietary/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd:broadcom
