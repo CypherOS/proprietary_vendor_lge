@@ -92,6 +92,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so:qcom \
     vendor/lge/hammerhead/proprietary/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:qcom \
     vendor/lge/hammerhead/proprietary/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so:qcom \
+    vendor/lge/hammerhead/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:qcom \
     vendor/lge/hammerhead/proprietary/libmmcamera_mt9m114b.so:system/lib/libmmcamera_mt9m114b.so:qcom \
     vendor/lge/hammerhead/proprietary/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:qcom \
     vendor/lge/hammerhead/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:qcom \
