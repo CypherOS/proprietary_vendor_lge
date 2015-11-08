@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2015 Fuck The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,18 +21,30 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
+    DMAgent \
+    HiddenMenu \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
     TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     cneapiclient \
-    qcrilhook
+    qcrilhook \
+    rcsimssettings \
+    rcsservice
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    CNEService
+    CNEService \
+    ConnMO \
+    DCMO \
+    DiagMon \
+    DMConfigUpdate \
+    DMService \
+    HotwordEnrollment \
+    LifeTimerService \
+    SprintDM
+    
 
-# Prebuilt multilibs
-PRODUCT_PACKAGES += \
-    libtime_genoff.so
 
