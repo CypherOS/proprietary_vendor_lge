@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/bullhead/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/bullhead/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/lge/bullhead/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/bullhead/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/bullhead/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/bullhead/proprietary/bin/nl_listener:system/bin/nl_listener \
