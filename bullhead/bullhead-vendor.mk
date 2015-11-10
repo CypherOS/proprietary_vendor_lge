@@ -17,7 +17,9 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
+    datastatusnotification \
     HiddenMenu \
+    ims \
     qcrilmsgtunnel \
     RCSBootstraputil \
     RcsImsBootstraputil \
@@ -44,5 +46,7 @@ PRODUCT_PACKAGES += \
 
 # Symlinks
 PRODUCT_PACKAGES += \
+    libimsmedia_jni.so \
+    libimscamera_jni.so \
     libdmengine.so \
     libdmjavaplugin.so
