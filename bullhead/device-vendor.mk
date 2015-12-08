@@ -1,4 +1,4 @@
-# Copyright (C) 2015 Fuck The CyanogenMod Project
+# Copyright (C) 2015 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     RCSBootstraputil \
     RcsImsBootstraputil \
-    TimeService
+    TimeService \
+    Tycho 
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -40,6 +41,7 @@ PRODUCT_PACKAGES += \
     DiagMon \
     DMConfigUpdate \
     DMService \
+    GCS \
     HotwordEnrollment \
     LifeTimerService \
     SprintDM
