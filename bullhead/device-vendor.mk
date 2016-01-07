@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     RCSBootstraputil \
     RcsImsBootstraputil \
+    SetupSmartDeviceOverlay \
     TimeService \
     Tycho 
 
