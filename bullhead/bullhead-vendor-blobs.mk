@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/diag/Bullhead_radio-general.cfg:system/etc/diag/Bullhead_radio-general.cfg \
     vendor/lge/bullhead/proprietary/etc/diag/IMS_DS_CM_NAS.cfg:system/etc/diag/IMS_DS_CM_NAS.cfg \
     vendor/lge/bullhead/proprietary/etc/diag/radio_ims.cfg:system/etc/diag/radio_ims.cfg \
+    vendor/lge/bullhead/proprietary/etc/diag/radio_wfc.cfg:system/etc/diag/radio_wfc.cfg \
     vendor/lge/bullhead/proprietary/etc/diag/wlan.cfg:system/etc/diag/wlan.cfg \
     vendor/lge/bullhead/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
