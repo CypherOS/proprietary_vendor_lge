@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The PureNexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,15 +17,6 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),bullhead)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := atfwd
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := atfwd/atfwd.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := datastatusnotification
@@ -55,15 +46,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := qcrilmsgtunnel
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := qcrilmsgtunnel/qcrilmsgtunnel.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := RCSBootstraputil
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := RCSBootstraputil/RCSBootstraputil.apk
@@ -77,15 +59,6 @@ LOCAL_MODULE := RcsImsBootstraputil
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := RcsImsBootstraputil/RcsImsBootstraputil.apk
 LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := SetupSmartDeviceOverlay
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := SetupSmartDeviceOverlay/SetupSmartDeviceOverlay.apk
-LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)

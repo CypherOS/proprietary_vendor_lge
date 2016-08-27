@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The Pure Nexus Project
+# Copyright (C) 2016 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lge/bullhead/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/lge/bullhead/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/lge/bullhead/proprietary/bin/fingerprintd:system/bin/fingerprintd \
-    vendor/lge/bullhead/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lge/bullhead/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/bullhead/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lge/bullhead/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -55,9 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/bullhead/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/bullhead/proprietary/etc/diag/Bullhead_radio-general.cfg:system/etc/diag/Bullhead_radio-general.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/IMS_DS_CM_NAS.cfg:system/etc/diag/IMS_DS_CM_NAS.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/radio_ims.cfg:system/etc/diag/radio_ims.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/radio_wfc.cfg:system/etc/diag/radio_wfc.cfg \
+    vendor/lge/bullhead/proprietary/etc/diag/ims_epdg.cfg:system/etc/diag/ims_epdg.cfg \
     vendor/lge/bullhead/proprietary/etc/diag/wlan.cfg:system/etc/diag/wlan.cfg \
     vendor/lge/bullhead/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
@@ -94,4 +90,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so
+    vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/lge/bullhead/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so
