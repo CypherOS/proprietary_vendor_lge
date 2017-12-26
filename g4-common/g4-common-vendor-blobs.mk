@@ -741,6 +741,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
     vendor/lge/g4-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/g4-common/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
-    vendor/lge/g4-common/proprietary/app/ims/ims.apk:system/app/ims/ims.apk \
     vendor/lge/g4-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/g4-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so

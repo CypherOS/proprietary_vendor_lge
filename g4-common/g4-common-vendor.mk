@@ -34,4 +34,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    ims
+
 $(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
