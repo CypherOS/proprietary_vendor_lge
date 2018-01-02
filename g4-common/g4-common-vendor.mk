@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lge/g4-common/proprietary/bin/imswmsproxy:system/bin/imswmsproxy \
     vendor/lge/g4-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/lge/g4-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/g4-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/g4-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g4-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -106,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
+    vendor/lge/g4-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lge/g4-common/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/lge/g4-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
