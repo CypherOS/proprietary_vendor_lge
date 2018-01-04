@@ -484,6 +484,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lge/g4-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
