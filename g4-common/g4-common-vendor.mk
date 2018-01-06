@@ -353,6 +353,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/g4-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libtinyxml.so:system/vendor/lib/libtinyxml.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libloc_pla.so:system/vendor/lib64/libloc_pla.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libloc_stub.so:system/vendor/lib64/libloc_stub.so \
@@ -688,6 +689,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libtinyxml.so:system/vendor/lib64/libtinyxml.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmare-1.0.0.so:system/vendor/lib64/libmare-1.0.0.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmare-cpu-1.0.0.so:system/vendor/lib64/libmare-cpu-1.0.0.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
