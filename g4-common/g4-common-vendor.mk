@@ -18,33 +18,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/qmi-framework-tests/check_system_health:system/bin/qmi-framework-tests/check_system_health \
     vendor/lge/g4-common/proprietary/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:system/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/lge/g4-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/lge/g4-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/g4-common/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/g4-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/lge/g4-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lge/g4-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/g4-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/lge/g4-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/lge/g4-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/lge/g4-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/lge/g4-common/proprietary/bin/imswmsproxy:system/bin/imswmsproxy \
-    vendor/lge/g4-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lge/g4-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/g4-common/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/lge/g4-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/lge/g4-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lge/g4-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/lge/g4-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/lge/g4-common/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/lge/g4-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g4-common/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
-    vendor/lge/g4-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/g4-common/proprietary/bin/radish:system/bin/radish \
-    vendor/lge/g4-common/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/lge/g4-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/g4-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g4-common/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/lge/g4-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g4-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -105,6 +86,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
+    vendor/lge/g4-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/lge/g4-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/lge/g4-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/lge/g4-common/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/lge/g4-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/lge/g4-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
+    vendor/lge/g4-common/proprietary/vendor/bin/imswmsproxy:system/vendor/bin/imswmsproxy \
+    vendor/lge/g4-common/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
+    vendor/lge/g4-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/lge/g4-common/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/lge/g4-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/lge/g4-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/lge/g4-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
+    vendor/lge/g4-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/lge/g4-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/lge/g4-common/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
+    vendor/lge/g4-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/lge/g4-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/lge/g4-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lge/g4-common/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/lge/g4-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
