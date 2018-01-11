@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib/hw/sensors.hal.tof.so:system/lib/hw/sensors.hal.tof.so \
-    vendor/lge/g4-common/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
     vendor/lge/g4-common/proprietary/lib/libalhdri.so:system/lib/libalhdri.so \
@@ -79,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
-    vendor/lge/g4-common/proprietary/lib64/libn2pm.so:system/lib64/libn2pm.so \
     vendor/lge/g4-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
     vendor/lge/g4-common/proprietary/lib64/liblgmabl.so:system/lib64/liblgmabl.so \
     vendor/lge/g4-common/proprietary/lib64/libmdmcutback.so:system/lib64/libmdmcutback.so \
