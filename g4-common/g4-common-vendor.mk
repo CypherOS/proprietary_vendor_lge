@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/lge/g4-common/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
     vendor/lge/g4-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/lge/g4-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lge/g4-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lge/g4-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
