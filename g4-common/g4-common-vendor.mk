@@ -126,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libloc_eng.so:system/vendor/lib/libloc_eng.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
