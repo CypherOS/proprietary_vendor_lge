@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/lge/g4-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/lge/g4-common/proprietary/lib64/libsoftkeymaster.so:system/lib64/libsoftkeymaster.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
