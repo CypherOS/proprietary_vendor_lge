@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/hw/lgkm.msm8992.so:system/lib/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
-    vendor/lge/g4-common/proprietary/lib/hw/sensors.hal.tof.so:system/lib/hw/sensors.hal.tof.so \
     vendor/lge/g4-common/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
