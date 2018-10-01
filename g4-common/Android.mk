@@ -231,6 +231,7 @@ LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -241,6 +242,7 @@ LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
