@@ -22,7 +22,7 @@ ifeq ($(TARGET_DEVICE),bullhead)
 include $(CLEAR_VARS)
 LOCAL_MODULE := datastatusnotification
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
+LOCAL_SRC_FILES := vendor/app/datastatusnotification/datastatusnotification.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -34,7 +34,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/app/ims/ims.apk
+LOCAL_SRC_FILES := vendor/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -43,31 +43,33 @@ LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
+ifeq ($(TARGET_USES_SOURCE_VENDOR_IMAGE),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := VendorLinks
 LOCAL_MODULE_OWNER := lge
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_POST_INSTALL_CMD := \
-        test -s ArtworkUrl/proprietary/prebuilt/target/product/msm8992/system/etc/izat.conf || { \
+        test -s vendor/lge/bullhead/proprietary/prebuilt/target/product/msm8992/system/etc/izat.conf || { \
         mkdir -p $(PRODUCT_OUT)/vendor/app/ims/lib/arm64; \
-        ln -sf /proprietary/lib64/libimscamera_jni.so $(PRODUCT_OUT)/vendor/app/ims/lib/arm64/libimscamera_jni.so; \
-        ln -sf /proprietary/lib64/libimsmedia_jni.so $(PRODUCT_OUT)/vendor/app/ims/lib/arm64/libimsmedia_jni.so; \
+        ln -sf /vendor/lib64/libimscamera_jni.so $(PRODUCT_OUT)/vendor/app/ims/lib/arm64/libimscamera_jni.so; \
+        ln -sf /vendor/lib64/libimsmedia_jni.so $(PRODUCT_OUT)/vendor/app/ims/lib/arm64/libimsmedia_jni.so; \
         mkdir -p $(PRODUCT_OUT)/vendor/lib64; \
         mkdir -p $(PRODUCT_OUT)/vendor/lib; \
-        ln -sf /proprietary/lib64/egl/eglSubDriverAndroid.so $(PRODUCT_OUT)/vendor/lib64/eglSubDriverAndroid.so; \
-        ln -sf /proprietary/lib/egl/eglSubDriverAndroid.so $(PRODUCT_OUT)/vendor/lib/eglSubDriverAndroid.so; \
-        ln -sf /proprietary/lib64/egl/libEGL_adreno.so $(PRODUCT_OUT)/vendor/lib64/libEGL_adreno.so; \
-        ln -sf /proprietary/lib/egl/libEGL_adreno.so $(PRODUCT_OUT)/vendor/lib/libEGL_adreno.so; \
-        ln -sf /proprietary/lib64/egl/libGLESv1_CM_adreno.so $(PRODUCT_OUT)/vendor/lib64/libGLESv1_CM_adreno.so; \
-        ln -sf /proprietary/lib/egl/libGLESv1_CM_adreno.so $(PRODUCT_OUT)/vendor/lib/libGLESv1_CM_adreno.so; \
-        ln -sf /proprietary/lib64/egl/libGLESv2_adreno.so $(PRODUCT_OUT)/vendor/lib64/libGLESv2_adreno.so; \
-        ln -sf /proprietary/lib/egl/libGLESv2_adreno.so $(PRODUCT_OUT)/vendor/lib/libGLESv2_adreno.so; \
-        ln -sf /proprietary/lib64/egl/libq3dtools_adreno.so $(PRODUCT_OUT)/vendor/lib64/libq3dtools_adreno.so; \
-        ln -sf /proprietary/lib/egl/libq3dtools_adreno.so $(PRODUCT_OUT)/vendor/lib/libq3dtools_adreno.so; \
-        ln -sf /proprietary/lib64/egl/libq3dtools_esx.so $(PRODUCT_OUT)/vendor/lib64/libq3dtools_esx.so; \
-        ln -sf /proprietary/lib/egl/libq3dtools_esx.so $(PRODUCT_OUT)/vendor/lib/libq3dtools_esx.so; }
+        ln -sf /vendor/lib64/egl/eglSubDriverAndroid.so $(PRODUCT_OUT)/vendor/lib64/eglSubDriverAndroid.so; \
+        ln -sf /vendor/lib/egl/eglSubDriverAndroid.so $(PRODUCT_OUT)/vendor/lib/eglSubDriverAndroid.so; \
+        ln -sf /vendor/lib64/egl/libEGL_adreno.so $(PRODUCT_OUT)/vendor/lib64/libEGL_adreno.so; \
+        ln -sf /vendor/lib/egl/libEGL_adreno.so $(PRODUCT_OUT)/vendor/lib/libEGL_adreno.so; \
+        ln -sf /vendor/lib64/egl/libGLESv1_CM_adreno.so $(PRODUCT_OUT)/vendor/lib64/libGLESv1_CM_adreno.so; \
+        ln -sf /vendor/lib/egl/libGLESv1_CM_adreno.so $(PRODUCT_OUT)/vendor/lib/libGLESv1_CM_adreno.so; \
+        ln -sf /vendor/lib64/egl/libGLESv2_adreno.so $(PRODUCT_OUT)/vendor/lib64/libGLESv2_adreno.so; \
+        ln -sf /vendor/lib/egl/libGLESv2_adreno.so $(PRODUCT_OUT)/vendor/lib/libGLESv2_adreno.so; \
+        ln -sf /vendor/lib64/egl/libq3dtools_adreno.so $(PRODUCT_OUT)/vendor/lib64/libq3dtools_adreno.so; \
+        ln -sf /vendor/lib/egl/libq3dtools_adreno.so $(PRODUCT_OUT)/vendor/lib/libq3dtools_adreno.so; \
+        ln -sf /vendor/lib64/egl/libq3dtools_esx.so $(PRODUCT_OUT)/vendor/lib64/libq3dtools_esx.so; \
+        ln -sf /vendor/lib/egl/libq3dtools_esx.so $(PRODUCT_OUT)/vendor/lib/libq3dtools_esx.so; }
 
 include $(BUILD_PHONY_PACKAGE)
+endif
 
 endif
