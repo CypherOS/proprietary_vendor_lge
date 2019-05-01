@@ -805,6 +805,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so
 
+# NFC
+PRODUCT_COPY_FILES += \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/nfc_nci.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/nfc_nci.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.nfc@1.0-impl.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.nfc@1.0-impl.so
+
 PRODUCT_PACKAGES += \
     libcir_driver \
     libloc_api_v02 \
