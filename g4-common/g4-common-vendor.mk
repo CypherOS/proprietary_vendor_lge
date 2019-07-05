@@ -116,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/lge/g4-common/proprietary/vendor/bin/hw/android.hardware.oemlock@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.oemlock@1.0-service \
-    vendor/lge/g4-common/proprietary/vendor/bin/hw/android.hardware.wifi.offload@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi.offload@1.0-service \
     vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn547_fw.so \
