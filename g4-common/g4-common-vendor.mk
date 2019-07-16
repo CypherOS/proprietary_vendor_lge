@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
     vendor/lge/g4-common/proprietary/vendor/bin/imswmsproxy:$(TARGET_COPY_OUT_VENDOR)/bin/imswmsproxy \
     vendor/lge/g4-common/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
+    vendor/lge/g4-common/proprietary/vendor/bin/laser_init:$(TARGET_COPY_OUT_VENDOR)/bin/laser_init \
     vendor/lge/g4-common/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/lge/g4-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
