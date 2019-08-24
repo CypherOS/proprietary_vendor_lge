@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqmimotext.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfilterpack_facedetect.so \
+    vendor/lge/g4-common/proprietary/vendor/bin/oemlock-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/oemlock-bridge \
     vendor/lge/g4-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/lge/g4-common/proprietary/vendor/bin/bdaddr_loader:$(TARGET_COPY_OUT_VENDOR)/bin/bdaddr_loader \
     vendor/lge/g4-common/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
@@ -117,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/lge/g4-common/proprietary/vendor/bin/hw/android.hardware.oemlock@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.oemlock@1.0-service \
+    vendor/lge/g4-common/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.rc \
     vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn547_fw.so \
